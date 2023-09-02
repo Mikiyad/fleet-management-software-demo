@@ -1,0 +1,4 @@
+*/2 * * * * php /home/gps/cron_alarms.php > /dev/null
+*/1 * * * * php /home/gps/cron_geofence.php > /dev/null
+*/1 * * * * php /home/gps/cron_track_malawi.php > /dev/null
+*/1 * * * * php /home/gps/geo_send_notifications.php > /dev/null
